@@ -1,0 +1,131 @@
+/* External CSS File to include for HW 4 */
+
+/* FIXME - TO ADD to the website!
+  
+ border-radius */
+
+/* Google Embedded Font */
+h1 {
+    font-family: "Stick No Bills", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* width and height */
+h2 {
+  color: white;
+  height:100 px;
+  width: 200 px;
+  font-style: oblique;
+  text-align: center;
+}
+
+/* Font */
+h3 {
+  line-height: 3;
+  font-family: "Urbanist", sans-serif;
+  /* rem is font size units */
+  font-size: 1.5rem;
+  font-weight: 750;
+  background-color: rgba(223, 9, 9, 0.76);
+  color: white;
+  text-align:center;
+}
+
+
+.image-container img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(182, 10, 10, 0.76);
+  filter: hue-rotate(0deg);
+  transition: filter .4s ease;
+  cursor: pointer;
+}
+
+/* Here is one of the new css options implemented. 
+And with the toggle feature it is able to go back and
+forth between the different hues, the original hue
+and the completely inverted hue. */
+#toggle-hue:checked + .image-container img {
+  filter: hue-rotate(180deg);
+}
+
+#toggle-hue2:checked + .image-container img {
+  filter: hue-rotate(180deg);
+}
+
+
+p {
+  /* Including background color and opacity */
+  background-color: rgba(223, 9, 9, 0.76);
+  text-align: left;
+  color: rgb(231, 229, 229);
+  margin: 0 auto;
+  width: 62%;
+    
+}
+
+ol {
+  /* Including background color and opacity */
+  background-color: rgba(223, 9, 9, 0.76);
+  text-align: left;
+  margin: 0 auto;
+  color: rgb(231, 229, 229);
+  width: 62%;
+
+}
+
+ul {
+  /* Including background color and opacity */
+  background-color: rgba(223, 9, 9, 0.76);
+  text-align: left;
+  margin: 0 auto;
+  color: rgb(231, 229, 229);
+  width: 62%;
+  
+
+}
+
+table {
+  border-radius: 8 px;
+  background-color: rgba(223, 9, 9, 0.76);
+  text-align: left;
+  margin: 0 auto;
+  color: rgb(231, 229, 229);
+  width: 62%;
+  border: 8px solid rgba(107, 4, 4, 0.863);
+  cursor: cell;
+
+}
+
+.table-decoration {
+  /* Adding text-decoration */
+  text-decoration: underline;
+  
+}
+
+.support {
+  border: 8px solid rgba(107, 4, 4, 0.863);
+  border-radius: 8px;
+}
+
+.support2 {
+  text-align: center;
+  border: 8px solid rgba(107, 4, 4, 0.863);
+  border-radius: 8px;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+/* Changing the hyperlink a tag color since the blue was weird on the red background */
+a {
+  color: rgb(55, 199, 199);
+}
+
+button {
+  cursor: pointer;
+}

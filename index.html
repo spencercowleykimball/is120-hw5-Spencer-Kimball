@@ -1,0 +1,201 @@
+<!-- My 3 additional properties:
+
+I used the cursor css styling to add the pointer finger over the add to cart button,
+as well as changing the cursor to be a "cell" option while it hovers over the table so
+that it has more of an excel feel to it. 
+
+I thought about adding the wait cursor (which shows the loading circle)
+on my website a tags, but thought that that would be rude.
+
+I know you suggested to avoid using margin as one of the 3 css options, but I really wanted
+my text to be centered and left aligned and that seemed like the best option so far.
+
+The toggle feature combined with hue-rotate is the 3rd new css implemented, and it is able to go back and
+forth between the different hues, the original hue and the 180 degree inverted hue.
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selkirk Boomstik Paddle - HW4</title>
+
+    <!-- Embed Code - Stick no bills font, because it is for the Boomstik Website -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Make sure to include this line otherwise the embedded font won't get picked up -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <h1>
+        <!-- Product name -->
+        Selkirk Boomstik Pickleball Paddle
+    </h1>
+
+    <!-- Short product tagline -->
+    <h2>
+        Strike With <strong>Power</strong>!
+    </h2>
+    
+    <input type="checkbox" id="toggle-hue" hidden>
+
+    <div class="image-container"> 
+        <label for="toggle-hue">
+            <!-- Product image (include alternate text for accessibility purposes) -->
+            <img height="500px" src="https://www.selkirk.com/cdn/shop/files/pdp_PNG-PDP-Labs-Boomstik-Elongated-Pickleball-Paddle-03x.png?v=1768407039&width=1200" alt="Boomstik">
+
+        </label>
+    </div>
+
+    <br>
+
+    <p class="support2">
+        Click the image to see another color option!
+    </p>
+
+</header>
+
+<body>
+    <section id="Description section">
+        <!-- Product description -->
+        <h3>Product Description</h3>
+
+        <p class="support">
+            <!-- Give any emphasis or strong importance to text where it makes sense -->
+            The <strong>Boom</strong>stik has a limited lifetime warranty as well as a 30 day free return policy.
+            <br>
+            The <strong>Boom</strong>stik provides more <strong>power</strong> for your stroke, and <em>3(X)</em> as much spin due to the new <strong>INFINIGRIT</strong>.
+            <br>
+            The <strong>Boom</strong>stik is built with the new BoomCore! 
+            <br>
+            The <strong>Boom</strong>Core is created using PureFoam surrounded by an EVA Power Ring and fused together.
+            <a href="https://www.youtube.com/shorts/zNlGh42VNMQ" target="_blank">Boomstik Video</a>
+        </p>
+
+        <br>
+
+        <input type="checkbox" id="toggle-hue2" hidden>
+
+        <div class="image-container">
+            <label for="toggle-hue2">
+                <img height="400px" src="https://cdn.shopify.com/s/files/1/0152/5763/2822/files/APA-NO-MOI.jpg?v=1759789490" alt="Jack Sock with Boomstik">
+            </label>
+        </div>
+
+        <br>
+
+        <p class="support2">
+            The <strong>Boom</strong>stik is currently used by former tennis pro <strong>Jack Sock</strong>!
+        </p>
+
+    </section>
+
+    <section id="purchasing section">
+        <h3> Purchasing </h3>
+
+        <!-- List of key features -->
+        <ul class="support">
+            <li>Limited Lifetime Warranty</li>
+            <li>Free Shipping on United States Orders $55+</li>
+            <li>Final assembly in the USA with China core / InfiniGrit applied</li>
+            <li>30-Day Guarantee</li>
+        </ul>
+
+        <br>
+
+        <!-- List of ordered steps or instructions -->
+        <ol class="support">
+            <li>Find a store near you! <a href="https://www.selkirk.com/pages/physical-store-locations" target="_blank">Locations</a></li>
+            <li>Demo any paddle that you find!</li>
+            <!-- This seems like a price to rob you blind, but you would be shocked by
+            how many people are buying these paddles at this price, even though there
+            are the very cheap $20 paddle options out there. I currently own the boomstik
+            and it does feel way better than the $20 options. However, there are a few
+            $150 paddles out there that are arguably fairly similar in quality.  -->
+            <li>Buy the paddle! You can now get this paddle for <em>$333</em>!</li>
+            
+            <!-- Add to cart button -->
+            <button> Add to Cart! </button>
+
+            <br>
+        </ol>
+         
+        
+
+    </section>
+    
+    <section id="specifications section">
+        <h3> Specifications </h3>
+
+        <!-- Table with various technical specifications (e.g., weight, dimensions, materials) -->
+        <table>
+            <tr>
+                <th class="table-decoration">Skill Level</th>
+                <th class="table-decoration">Average Weight</th>
+                <th class="table-decoration">Grip Length</th>
+                <th class="table-decoration">Grip Circumference</th>
+                <th class="table-decoration">Paddle Height</th>
+                <th class="table-decoration">Paddle Width</th>
+                
+            </tr>
+            <tr>
+                <td class="table-decoration">Intermediate to Advanced</td>
+                <td>8.0-8.3 oz</td>
+                <td>5.8"</td>
+                <td>4.25"</td>
+                <td>16.5"</td>
+                <td>7.45"</td>
+            </tr>
+
+        </table>
+
+        <br>
+
+        <p class="support">
+            <!-- Working link to the company website (should open in a new tab) -->
+            Check out all of the other <strong>amazing</strong> products from the Selkirk main website here!
+            <a href="https://www.selkirk.com/" target="_blank">Selkirk Main Website</a>
+
+        </p>
+        <br>
+    </section>
+</body>
+
+
+<footer>
+    <!-- Support or contact info -->
+    <h3> Customer Support </h3>
+    <p class="support">
+        <img height="20px" src="https://png.pngtree.com/png-vector/20190927/ourmid/pngtree-phone-icon-png-image_1757859.jpg" alt="phone icon">
+        
+        <a href="tel:8007594326">8007594326</a>
+        <br>
+        <img height="20px" src="https://static.vecteezy.com/system/resources/previews/066/540/760/non_2x/mail-icon-eps-mail-logo-mail-icon-clip-art-free-vector.jpg" alt="mail icon">
+        <a href="mailto:support@selkirk.com">support@selkirk.com</a>
+        
+        <br>
+        <a href="https://www.selkirk.com/pages/contact-us" target="_blank">Selkirk Support's actual website</a>
+         
+    </p>
+
+    <br>
+
+    <p class="support">
+        To compare my product website to the REAL Selkirk Boomstik - Elongated Paddle page: 
+        <a href="https://www.selkirk.com/products/selkirk-labs-project-boomstik?variant=43470006583398" target="_blank">Boomstik</a>
+        
+    </p>
+
+    <br>
+    <br>
+    
+    </footer>
+</html>
+
+<!-- Make sure your HTML validates in VS Code with no errors or warnings.
+ Done! Except for spelling errors for "Boomstik", "Pickleball", "INFINIGRIT" -->
