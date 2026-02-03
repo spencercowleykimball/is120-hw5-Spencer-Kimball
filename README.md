@@ -1,4 +1,4 @@
-# is120-hw4-Spencer-Kimball
+# is120-hw5-Spencer-Kimball
 IS 120 Homework 5
 
 Updating the website created in a previous homework!
