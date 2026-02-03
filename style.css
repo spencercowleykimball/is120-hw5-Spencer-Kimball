@@ -1,8 +1,30 @@
-/* External CSS File to include for HW 4 */
+/* External CSS File to include for HW 5 */
 
-/* FIXME - TO ADD to the website!
-  
- border-radius */
+/* Box css from Class Notes */
+* {
+  box-sizing: border-box;
+}
+
+/* Another reset that's a good idea */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  /* basic styling */
+  background-color: blue;
+  color: white;
+  border: 5px solid red;
+
+  /* padding and margin examples */
+  padding: 20px 5px;
+  margin: 20px;
+
+  /* changing from default display: block; */
+  display: inline-block;
+}
+
 
 /* Google Embedded Font */
 h1 {
@@ -114,11 +136,6 @@ table {
   text-align: center;
   border: 8px solid rgba(107, 4, 4, 0.863);
   border-radius: 8px;
-}
-
-body {
-  background-color: black;
-  margin: 0;
 }
 
 /* Changing the hyperlink a tag color since the blue was weird on the red background */
