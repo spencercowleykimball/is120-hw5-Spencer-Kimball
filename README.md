@@ -1,19 +1,21 @@
 # is120-hw4-Spencer-Kimball
-IS 120 Homework 4
+IS 120 Homework 5
 
 Updating the website created in a previous homework!
 
-My 3 additional properties:
+Where you used margin and why?
+A. 
 
-I used the cursor css styling to add the pointer finger over the add to cart button,
-as well as changing the cursor to be a "cell" option while it hovers over the table so
-that it has more of an excel feel to it. 
+Where you used padding and why?
+A.  
 
-I thought about adding the wait cursor (which shows the loading circle)
-on my website a tags, but thought that that would be rude.
+Where you used display and why?
+A.
 
-I know you suggested to avoid using margin as one of the 3 css options, but I really wanted
-my text to be centered and left aligned and that seemed like the best option so far.
+Where you used position and why?
+A.
 
-The toggle feature combined with hue-rotate is the 3rd new css implemented, and it is able to go back and
-forth between the different hues, the original hue and the 180 degree inverted hue.
+Things to have: 
+1. Answers to questions in the README.
+2. Publish to Github Pages
+3. Include pages website live link in the about section.
